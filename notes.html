@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Notes App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="head h-nav">
+            <h1>Notes App</h1>
+            <ul class="navlist">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </header>
+        <div class="box">
+            <h1>MagicNotes</h1>
+            <div class="form">
+                <label for="title">Add Your Notes</label>
+                <textarea name="" id="addNotes" cols="30" rows="6" placeholder="Enter Notes"></textarea>
+                <button id="btn">Add Notes</button>
+            </div>
+            <h1>Your Notes</h1>
+            <!-- <div class="card">
+                <h5 class="h5">Note</h5>
+                <p class="para">element</p>
+                <button id="index" onclick="deleteNote()">Delete Notes</button>
+            </div> -->
+        </div>
+        <div class="notes-box">
+            <div id="notes"></div>
+        </div>
+    </body>
+    <script src="script.js" async defer></script>
+
+</html>

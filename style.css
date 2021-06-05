@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+.head {
+    background-color: rgb(53, 164, 216);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 64px;
+}
+
+.head h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navlist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 0 0.7rem;
+}
+
+.navlist li a:hover {
+    border-bottom: 4px solid red;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.form{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.form textarea{
+    width: 70vw;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 1rem;
+    font-size: 0.9rem;
+    outline: none;
+    margin: 0.4rem 0;
+}
+.form label{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    background-color: white;
+    color: black;
+    padding: 0.3rem 0.4rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(167, 136, 136, 0.24);
+    color:black;
+    transform: scale(1.2);
+}
+.card{
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 20vw;
+    height: 6rem;
+    background-color: rgb(165, 190, 190);
+    margin: 1rem;
+}
+#notes{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
